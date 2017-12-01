@@ -1,0 +1,17 @@
+#categories-sidebar {
+    ul {
+        @extend .list-unstyled;
+
+        .clear-filter {
+            padding-bottom: 10px;
+        }
+
+        ul.collapsed {
+            display: none !important;
+        }
+
+        ul.child {
+            padding-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body.nav-body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.move-down20 {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        .navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "novaly",
+  "dependencies": {
+    "bootstrap-rating-input": "master"
+  }
+}
